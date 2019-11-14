@@ -1,0 +1,5 @@
+Ping xxx.xxx.xxx（目标网址）
+arp -a | find "xxx.xxx.xxx"(找到对应的MAC地址)
+修改本地网卡驱动页，NET work Address 为对应的MAC地址末尾加一
+再次Ping 目标 若有回应
+则很可能装有嗅探器
